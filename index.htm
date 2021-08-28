@@ -1,0 +1,72 @@
+<!-- BY JAM -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <script defer src="./main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multistep form</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Register</h1><br>
+            <form>
+               <div class="inputs">
+                 <div class="first show">
+                    <label for="fname">
+                        Name:
+                    </label><br>
+                    <input id="fname" type="text" placeholder="First Name">
+                    <label>
+                        <input type="text" placeholder="Last Name">
+                    </label>
+                 </div>
+                 <div class="second">
+                    <label for="email">
+                        Contact Info:
+                    </label><br>
+                    <input id="email" type="email" placeholder="Email">
+                    <label>
+                        <input type="number" placeholder="Phone">
+                    </label>
+                 </div>
+                 <div class="third">
+                    <label for="month">
+                        Birthday:
+                    </label><br>
+                    <input id="month" type="text" placeholder="dd">
+                    <label>
+                        <input type="text" placeholder="mm">
+                    </label>
+                    <label>
+                        <input type="text" placeholder="yyy">
+                    </label>
+                 </div>
+                 <div class="final">
+                    <label for="username">
+                        Login Info:
+                    </label><br>
+                    <input id="username" placeholder="Username">
+                    <label>
+                        <input type="password" placeholder="Password">
+                    </label>
+                 </div>
+               </div>
+    
+                <div class="buttons">
+                    <button class="prev hide">Previous</button>
+                    <button class="next">Next</button>
+                    <button class="hide" type="button">Submit</button>
+                </div>
+            </form><br>
+        <div class="rounds">
+            <span class="active"></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>   
+</body>
+</html>

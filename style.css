@@ -1,0 +1,100 @@
+/* BY JAM */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+
+.container{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    background-color:#f1f1f1;
+    max-width:90vw;
+    margin:auto;
+    padding:1em;
+    
+}
+
+.buttons{
+    align-self:flex-end;
+}
+
+.rounds{
+    align-self: center;
+}
+
+
+.show{
+    display:flex !important;
+}
+
+.hide{
+    display:none !important;
+}
+
+.rounds>span{
+   width:1em;
+   height:1em;
+   border:1px solid gray;
+   background-color:rgba(13, 115, 13,0.3);
+   display:inline-block;
+   border-radius:50%;
+}
+
+.active{
+    background-color:hsl(120, 80%, 25%) !important;
+}
+
+button:hover{
+    filter:opacity(0.8);
+    cursor:pointer;
+}
+
+
+button{
+    padding:10px;
+    color:white;
+    background-color:hsl(120, 80%, 25%);
+    font-size:1em;
+    border-radius:3px;
+    width:6em;
+}
+
+input{
+    padding:1em;
+    width: 100%;
+    margin-bottom: 1em;
+    
+}
+
+.prev{
+    background-color:grey;
+}
+input::placeholder{
+    font-size:1em;
+}
+
+.invalidInput{
+    background-color:rgba(230, 43, 43, 0.2) !important;
+}
+
+form{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+}
+
+.input{
+    position:relative;
+}
+
+.inputs>div{
+    display:none;
+    flex-direction:column; 
+}
+
